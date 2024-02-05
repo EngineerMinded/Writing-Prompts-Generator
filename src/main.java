@@ -33,10 +33,10 @@ public class main {
      * NOTE: You can add your own elements by editting the text files below.*
      ************************************************************************/
     static void generateRandomResponses() {
-        LinkedList<String> genreList = getList("src/genres.txt");
-        LinkedList<String> characterList = getList("src/characters.txt");
-        LinkedList<String> subjectList = getList ("src/subjects.txt");
-        LinkedList<String> fictionList = getList("src/fictions.txt");
+        LinkedList<String> genreList = getList("genres.txt");
+        LinkedList<String> characterList = getList("characters.txt");
+        LinkedList<String> subjectList = getList ("subjects.txt");
+        LinkedList<String> fictionList = getList("fictions.txt");
         mainMenu.genre.setText(getRandomAnswer(genreList));
         mainMenu.character.setText(getRandomAnswer(characterList));
         mainMenu.subject.setText((getRandomAnswer(subjectList)));
@@ -47,7 +47,6 @@ public class main {
             wordCount.add("5"); wordCount.add("8"); wordCount.add("12");
         }
         else {
-            System.out.println (fictionChoice);
             mainMenu.wordCountLabel.setText("Word Count: ");
             wordCount.add("2,500"); wordCount.add("2,000"); wordCount.add("1,500");
         }

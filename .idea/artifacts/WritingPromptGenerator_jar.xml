@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WritingPromptGenerator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WritingPromptGenerator_jar</output-path>
+    <root id="archive" name="WritingPromptGenerator.jar">
+      <element id="module-output" name="WritingPromptGenerator" />
+    </root>
+  </artifact>
+</component>
